@@ -1,13 +1,13 @@
 ---
 name: rpe
-description: Research → Plan → Execute → Review workflow for agentic coding that needs investigation, validation, and an approved implementation plan. Uses explicit PLAN and EXECUTE gates, with one research file and one plan file per workstream. Also applies to supporting documentation, analysis, and operations. Direct answers and small, low-risk edits can skip the workflow unless the user requests it.
+description: Research → Plan → Execute → Review workflow for substantial or higher-risk work that needs investigation, validation, and an approved implementation plan. Uses explicit PLAN and EXECUTE gates, with one research file and one plan file per workstream. Also applies to supporting documentation, analysis, and operations. Direct answers, trivial fixes, debugging sessions, and other small, low-risk tasks can use a lighter workflow unless the user requests RPE.
 ---
 
 # Research → Plan → Execute → Review
 
 ## When to use
 
-Use RPE primarily for agentic coding that needs investigation, an agreed implementation plan, and verification. When supporting documentation, analysis, or operations need these controls, apply the same workflow.
+Use RPE for substantial, cross-cutting, uncertain, or higher-risk work that needs an agreed plan and formal verification. Do not require RPE for direct answers, trivial fixes, debugging sessions, or other small, low-risk tasks. Handle them directly with proportionate investigation and verification; do not create workflow files or wait for PLAN/EXECUTE. If debugging reveals a substantial or risky change, pause before implementing it and propose RPE. Use RPE whenever the user explicitly requests it.
 
 Answer simple questions and make small, low-risk, reversible edits directly unless the user requests RPE. This shortcut does not waive safety rules or required permissions. Do not leave an active RPE workflow to bypass an approval gate.
 
